@@ -1,0 +1,73 @@
+.btn-dark-blue {
+    background: #7474BF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #348AC7, #7474BF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #348AC7, #7474BF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
+    border: 0px solid #eee;
+    
+}
+.forecast-box{
+    background: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    height: 40% !important;
+
+}
+
+.current-weather-box{
+    background: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    height: 40%;
+}
+main{
+  
+}
+  
+.main-container{
+    height: 100% !important;
+    border: 1px solid green;
+    padding: 0px;
+}
+
+.row{
+    border: 1px solid red;
+    margin:auto;
+    margin-left:0px;
+}
+
+.col{
+    border: 1px dotted blue;
+    padding-right: 0px;
+}
+
+.side-bar{
+    height: 80vh !important;
+}
+
+body{
+    /* width: 98%; */
+    /* box-sizing: border-box; */
+}
+
+.right-container{
+    /* stay within window length */
+    width: 100% !important;
+    height: 90vh;
+  
+}
+.left-and-right-container{
+    width: 100% !important;
+    height: 90vh;
+}
+
+#forecast-row{
+    height: 90% !important;
+}
+
+hr{
+    border: 1px solid rgb(0, 0, 0);
+    
+}
