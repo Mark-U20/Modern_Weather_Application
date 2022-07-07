@@ -71,3 +71,29 @@ hr{
     border: 1px solid rgb(0, 0, 0);
     
 }
+.day{
+    /* background: rgb(80, 80, 122); */
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    height: 250px;
+    font-size: small;
+    margin-left: auto;
+    margin-right: auto;
+    width:50px;
+    /* dark moon color from bootsnipp */
+    background: #141E30;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
+    border: 3px solid #eee;
+    max-width: 200px;
+    min-width: 150px;
+
+}
+.day h4{
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+}
+
