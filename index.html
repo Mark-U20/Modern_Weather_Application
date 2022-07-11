@@ -17,24 +17,24 @@
     <!-- <nav>
         <h1>Weather Dashboard</h1>
     </nav> -->
-    <main class="container-fluid main-container">
+    <main class="container-fluid main-container btn-dark-moon ">
         <nav class="row-12 btn-dark-blue">
             <div class="col-12 d-flex justify-content-center">
                 <h1 class="">Weather Dashboard</h1>
             </div>
         </nav>
         <!-- Left and Right containers -->
-        <div class="row left-and-right-container">
+        <div class="row left-and-right-container btn-dark-moon ">
 
             <!-- The left container -->
-            <div id="search-bar" class="col-2 side-bar">
+            <div id="search-bar" class="col-2 side-bar btn-dark-moon ">
                 <h3>Search for a City:</h3>
                 <input id="city" type="search" class="form-control rounded mb-2" placeholder="Search..." aria-label="Search"
                     aria-describedby="search-addon">
                 <button id="searchBtn" type="button" class="btn btn-dark-blue w-100 mb-2">Search</button>
                 <hr />
                 <!-- 8 rows of buttons holding main cities -->
-                <div class="row-12">
+                <!-- <div class="row-12">
                     <button type="button" class="btn btn-dark-blue w-100 mb-2">New York</button>
                 </div>
                 <div class="row-12">
@@ -63,7 +63,7 @@
                 </div>
                 <div class="row-12">
                     <button type="button" class="btn btn-dark-blue w-100 mb-2">Austin</button>
-                </div>
+                </div> -->
             </div>
             <!-- The right container -->
             <div class="col right-container">
@@ -72,13 +72,13 @@
                         <h3 id="current-city">Current City ..(date/date/date)</h3>
                         <h4 id="current-temp">Temp: current temp</h4>
                         <h4 id="current-wind">Wind: current wind speed</h4>
-                        <h4 id="current-uv">UV Index: current uv-index</h4>
+                        <span id="current-uv">UV Index: current uv-index</span>
                         <h4 id="current-humidity">Humidity: current humidity</h4>
                     </div>
 
                 </div>
                 <div class="col forecast-box">
-                    <div class="col">
+                    <div class="col btn-dark-blue">
                         <h3>5-Day Forecast:</h3>
                     </div>
                     <div id="forecast-row" class="row" style="padding-left: 0px ;">

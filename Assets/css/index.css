@@ -1,3 +1,16 @@
+*{
+    /* border-color: #141E30; */
+    /* background-color: #141E30; */
+    /* background: #141E30; */
+    
+}
+html{
+    background: #141E30;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #243B55, #141E30);
+
+}
+
 .btn-dark-blue {
     background: #7474BF;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #348AC7, #7474BF);  /* Chrome 10-25, Safari 5.1-6 */
@@ -16,7 +29,7 @@
 }
 
 .current-weather-box{
-    background: #fff;
+    /* background: #fff; */
     border-radius: 5px;
     padding: 20px;
     margin-bottom: 20px;
@@ -28,23 +41,24 @@ main{
   
 .main-container{
     height: 100% !important;
-    border: 1px solid green;
+    /* border: 1px solid green; */
     padding: 0px;
 }
 
 .row{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin:auto;
     margin-left:0px;
 }
 
 .col{
-    border: 1px dotted blue;
+    /* border: 1px dotted blue; */
     padding-right: 0px;
+    background-color: #141E30;
 }
 
 .side-bar{
-    height: 80vh !important;
+    /* height: 80vh !important; */
 }
 
 body{
@@ -64,7 +78,9 @@ body{
 }
 
 #forecast-row{
-    height: 90% !important;
+    height:max-content;
+    max-height: 300px;
+    padding-top: 10px;
 }
 
 hr{
@@ -76,7 +92,9 @@ hr{
     border-radius: 5px;
     padding: 20px;
     margin-bottom: 20px;
-    height: 250px;
+    /* height: 250px; */
+    height: max-content;
+    min-height: 250px;
     font-size: small;
     margin-left: auto;
     margin-right: auto;
@@ -91,9 +109,23 @@ hr{
     min-width: 150px;
 
 }
+.btn-dark-moon {
+    background: #141E30;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
+    /* border: 3px solid #eee; */
+}
 .day h4{
     color: white;
     font-size: medium;
     font-weight: bold;
 }
 
+.tag{
+
+}
+
+.badge-orange{
+    background: orange;
+}
